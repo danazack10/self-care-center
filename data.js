@@ -12,7 +12,7 @@ var affirmations = [
     "Every day I am getting healthier and stronger.", 
     "I honor my body by trusting the signals that it sends me.",
     "I manifest perfect health by making smart choices."
-    ]
+    ];
     
     var mantras = [
     "Breathing in, I send myself love. Breathing out, I send love to someone else who needs it.", 
@@ -30,4 +30,4 @@ var affirmations = [
     "The only constant is change.", 
     "Onward and upward.", 
     "I am the sky, the rest is weather."
-    ]
+    ];
