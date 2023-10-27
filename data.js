@@ -14,7 +14,7 @@ var affirmations = [
     "I manifest perfect health by making smart choices."
     ];
     
-    var mantras = [
+var mantras = [
     "Breathing in, I send myself love. Breathing out, I send love to someone else who needs it.", 
     "Don’t let yesterday take up too much of today.", 
     "Every day is a second chance.", 
