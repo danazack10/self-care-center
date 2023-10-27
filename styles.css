@@ -49,7 +49,7 @@ p {
 .radiobuttons {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .receivebutton {
@@ -84,10 +84,6 @@ p {
 
 svg {
     height: 75px;
-}
-
-.bottombuttons {
-    /* display: flex; */
 }
 
 .actionbuttons {
