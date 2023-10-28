@@ -1,11 +1,15 @@
 // VARIABLES
 //====================================================================
-var button = document.querySelector(button)
+var receiveButton = document.querySelector('.receivebutton')
+var img = document.querySelector('.svg')
+var msgCont = document.querySelector('.messagecontainer')
+var affirmRadio = document.querySelector('#affirmation')
+var mantraRadio = document.querySelector('#mantra')
 
 
 // EVENT LISTENERS
 //====================================================================
-button.addEventListener('click', displayMessage)
+receiveButton.addEventListener('click', displayMessage)
 
 
 //EVENT HANDLERS
@@ -14,17 +18,26 @@ function getRandomIndex(array) {
     return Math.floor(Math.random() * array.length);
   }
 
-//Write a function to display random mantra & random affirmation
-//Use conditional
-// --> if affirmation selected, then return random from the affirmation array
-// --> if mantra selected, then return random from the mantra array
-// Put return message in place of the svg icon (use "hidden")
-function displayMessage(){
-
+function randomAffirm() {
+  return affirmations[getRandomIndex(affirmations)]
 }
 
-// Write hidden/show helper functions?
+function randomMantra() {
+    return mantras[getRandomIndex(mantras)]
+}
 
+function displayMessage(){
+  img.style.display = "none";
+  var affirm = randomAffirm();
+  var mantra = randomMantra();
+  if (affirmRadio.checked) {
+    msgCont.innerText = `${affirm}`;
+    event.preventDefault();
+  } else if (mantraRadio.checked) {
+    msgCont.innerText = `${mantra}`;
+    event.preventDefault();
+  }
+}
 
 
 //====================================================================
