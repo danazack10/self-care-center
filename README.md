@@ -1,7 +1,8 @@
 # Self-Care Center 
 
 ### Abstract:
-[//]: <> For this project, I developed a "Self Care Center" webpage. Sometimes it can be quite difficult to think of affirmations or mantras to keep onself in good and healthy spirits. This application removes the brain power needed to think up your own affirmations or mantras! And allows you to remove affirmation or mantras that don't resignate with you. In more technical terms: this webpage allows a user to choose to receive either an affirmation message or a mantra message via radio buttons. When the "Receive Messge" button is then selected, a corresponding affirmation or mantra is randomly generated and displayed at the bottom of the page. Additionally, if the user is not satisfied with the message they receive, they may EITHER re-select the radio buttons and  "Receive Message" button to display a newly generated message OR they can select the "Remove Message" button to permanently remove the displayed message from the random generator and, therefore, prevent it from re-occuring. When the "Remove Message" button is selected, the user is alerted at the bottom of the page that the corresponding message was successfully removed. 
+[//]: <> For this project, I developed a "Self Care Center" webpage. Sometimes it can be quite difficult to think of affirmations or mantras to keep onself in good and healthy spirits. This application removes the brain power needed to think up your own affirmations or mantras! And allows you to remove affirmation or mantras that don't resignate with you.  
+In more technical terms: this webpage allows a user to choose to receive either an affirmation message or a mantra message via radio buttons. When the "Receive Messge" button is then selected, a corresponding affirmation or mantra is randomly generated and displayed at the bottom of the page. Additionally, if the user is not satisfied with the message they receive, they may EITHER re-select the radio buttons and  "Receive Message" button to display a newly generated message OR they can select the "Remove Message" button to permanently remove the displayed message from the random generator and, therefore, prevent it from re-occuring. When the "Remove Message" button is selected, the user is alerted at the bottom of the page that the corresponding message was successfully removed. 
 
 ### Installation Instructions:
 [//]: <> In order to install this application, you can fork and clone down this github repository: https://github.com/danazack10/self-care-center.
@@ -18,11 +19,11 @@
 
 ### Learning Goals:
 [//]: <> The learning goal of this project was to write my own CSS and HTML code for the first time, including demonstrating an understanding of how to utilize flexbox.
-Learning goals per the project webpage:
+Learning goals per the project webpage:  
 * Gain experience building an application that utilizes HTML, CSS and JavaScript
 * Write HTML and CSS to match a provided comp
 * Understand how to listen to and respond to user events
-* Individualize my programming skill set
+* Individualize my programming skill set  
 Link to the project webpage: https://frontend.turing.edu/projects/module-1/self-care-center.html
 
 ### Wins + Challenges:
