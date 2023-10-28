@@ -1,15 +1,17 @@
 // VARIABLES
 //====================================================================
-var receiveButton = document.querySelector('.receivebutton')
+var rcvButton = document.querySelector('.receivebutton')
 var img = document.querySelector('.svg')
 var msgCont = document.querySelector('.messagecontainer')
 var affirmRadio = document.querySelector('#affirmation')
 var mantraRadio = document.querySelector('#mantra')
+var rmvButton = document.querySelector('#removebutton')
 
 
 // EVENT LISTENERS
 //====================================================================
-receiveButton.addEventListener('click', displayMessage)
+rcvButton.addEventListener('click', displayMessage)
+rmvButton.addEventListener('click', removeMessage)
 
 
 //EVENT HANDLERS
@@ -39,7 +41,27 @@ function displayMessage(){
   }
 }
 
-
+function removeMessage(){
+  event.preventDefault();
+  if (affirmRadio.checked && img.style.display === "none"){
+    for (var i = 0; i < affirmations.length; i++) {
+      if (affirmations[i] === msgCont.innerText){
+        affirmations.splice(i, 1)
+        msgCont.innerText = `Affirmation has been removed!`
+        event.preventDefault();
+      } 
+    }
+  } else if (mantraRadio.checked && img.style.display === "none") {
+    for (var i = 0; i < mantras.length; i++) {
+      if (mantras[i] === msgCont.innerText){
+        mantras.splice(i, 1)
+        msgCont.innerText = `Mantra has been removed!`
+        event.preventDefault();
+      }  
+    }
+  }
+}
+  
 //====================================================================
 
 
