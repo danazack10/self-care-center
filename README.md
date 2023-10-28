@@ -19,10 +19,10 @@
 ### Learning Goals:
 [//]: <> The learning goal of this project was to write my own CSS and HTML code for the first time, including demonstrating an understanding of how to utilize flexbox.
 Learning goals per the project webpage:
-[] Gain experience building an application that utilizes HTML, CSS and JavaScript
-[] Write HTML and CSS to match a provided comp
-[] Understand how to listen to and respond to user events
-[] Individualize my programming skill set
+* Gain experience building an application that utilizes HTML, CSS and JavaScript
+* Write HTML and CSS to match a provided comp
+* Understand how to listen to and respond to user events
+* Individualize my programming skill set
 Link to the project webpage: https://frontend.turing.edu/projects/module-1/self-care-center.html
 
 ### Wins + Challenges:
